@@ -96,7 +96,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         mkdir clang-aosp
-        wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/4bb6424cb1615af408ae80871131f4da8c4ddadf/clang-r450784d.tar.gz
+        wget linux-x86/+archive/4bb6424cb1615af408ae80871131f4da8c4ddadf/clang-r416183b.tar.gz
         tar -C clang-aosp/ -zxvf clang-r450784d.tar.gz
 
     - name: Download Custom-Clang
